@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name fb:</strong>
+  <%= @like.name_fb_id %>
+</p>
+
+<p>
+  <strong>Page fb:</strong>
+  <%= @like.page_fb_id %>
+</p>
+
+<%= link_to 'Edit', edit_like_path(@like) %> |
+<%= link_to 'Back', likes_path %>
